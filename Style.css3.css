@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {background-color: #7194CE}
+
+h1 {color: aliceblue; font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center; text-decoration: underline}
+
+h2 {color: aliceblue; font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center}
+
+img {border-color: aliceblue;
+  border-width: 4px;
+  border-style: double;
+  border-radius: 10px;}
