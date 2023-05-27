@@ -19,7 +19,7 @@ img {border-color: aliceblue;
   .blink {
     animation: blinker 1.5s linear infinite;
     color: red;
-    font-family: sans-serif;
+   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-size: 30px;
 }
 @keyframes blinker {
     50% {
