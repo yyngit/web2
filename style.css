@@ -87,7 +87,8 @@ table, th, td {
 }
 
 .jobpost img {
-  width: 5%;
+  height: 200px;  
+  width: 250px;  
   text-align: center;
 }
 
