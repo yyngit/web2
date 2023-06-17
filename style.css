@@ -78,15 +78,15 @@ table, th, td {
 }
 
 .jobpost {
-  border: 10px ridge #f00;
-  background-color: #ff0;
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
+	border-color: aliceblue;
+	border-width: 4px;
+	border-style: double;
+	border-radius: 10px;
+}
 }
 
 .jobpost img {
-  width: 50%;
+  width: 25%;
 }
 
 .jobpost p {
