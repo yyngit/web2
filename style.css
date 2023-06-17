@@ -1,6 +1,12 @@
 @charset "UTF-8";
+
 body {
-	background-color: #7194CE
+  background-color: #7194CE
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
 }
 
 h1 {
