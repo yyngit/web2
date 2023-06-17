@@ -1,57 +1,73 @@
 @charset "UTF-8";
-
-body {background-color: #7194CE}
-
-h1 {color: aliceblue; font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center; text-decoration: underline}
-
-h2 {color: aliceblue; font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center}
-
-img {border-color: aliceblue;
-  border-width: 4px;
-  border-style: double;
-  border-radius: 10px;}
-
-  table, th, td {
-    border: 5px solid rgb(255, 255, 255);
-    color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-size: 25px;
-  }
-
-  .blink {
-    animation: blinker 1.5s linear infinite;
-    color: red;
-   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
-   font-size: 40px; 
-   text-align: center;
-   font-weight: bold;
+body {
+	background-color: #7194CE
 }
+
+h1 {
+	color: aliceblue;
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	text-decoration: underline
+}
+
+h2 {
+	color: aliceblue;
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center
+}
+
+h3 {
+	color: aliceblue;
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: left;
+}
+
+img {
+	border-color: aliceblue;
+	border-width: 4px;
+	border-style: double;
+	border-radius: 10px;
+}
+
+table, th, td {
+	border: 5px solid rgb(255, 255, 255);
+	color: aliceblue;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 25px;
+}
+
+.blink {
+	animation: blinker 1.5s linear infinite;
+	color: red;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
 @keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+	50% {
+		opacity: 0;
+	}
 }
-
-h3 {color: aliceblue; font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: left;}
 
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+	overflow: hidden;
+	background-color: #333;
 }
-
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
-
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
-
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+	background-color: #04AA6D;
+	color: white;
 }
