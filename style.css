@@ -78,7 +78,7 @@ table, th, td {
 }
 
 .jobpost {
-  width: 100em;
+  width: 50em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 8px 12px;
@@ -87,7 +87,8 @@ table, th, td {
 }
 
 .jobpost img {
-  width: 10%;
+  width: 5%;
+  text-align: center;
 }
 
 .jobpost p {
