@@ -134,7 +134,8 @@ text-align: center;
 }
 
 .jobbox img {
-    width: 100%;
+    width: 20%;
+	text-align: center;
 }
 
 .jobbox p {
