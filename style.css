@@ -124,3 +124,21 @@ text-align: center;
 	transform: translate(-50%, -50%);
 	color: white;
   }
+
+.jobbox {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobbox img {
+    width: 100%;
+}
+
+.jobbox p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
