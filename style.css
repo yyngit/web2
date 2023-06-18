@@ -74,6 +74,7 @@ table, th, td {
 }
 
 .banner {
+	background-image: url(images2/banner.jpg);
 text-align: center;
 }
 
