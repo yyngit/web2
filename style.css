@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+body, html {
   background-color: #7194CE
 }
 
@@ -104,7 +104,7 @@ text-align: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://yyngit.github.io/web2/images2/banner.png");
   
 	/* Set a specific height */
-	height: 50%;
+	height: 40%;
   
 	/* Position and center the image to scale nicely on all screens */
 	background-position: center;
