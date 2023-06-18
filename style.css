@@ -65,7 +65,7 @@ table, th, td {
 	font-size: 17px;
 }
 .topnav a:hover {
-	background-color: #ddd;
+	background-color: #acdaf1;
 	color: black;
 }
 .topnav a.active {
