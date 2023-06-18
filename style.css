@@ -74,7 +74,7 @@ table, th, td {
 }
 
 .banner {
-  background-image: images2
+  background-image: url(images2/banner.jpg);
 }
 
 .jobpost {
