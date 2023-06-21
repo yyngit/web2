@@ -1,0 +1,164 @@
+@charset "UTF-8";
+body, html {
+	height: 100%;
+	margin: 0;
+	background-color: #7194CE;
+  }
+  
+  h1 {
+	  color: aliceblue;
+	  font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	  text-align: center;
+	  text-decoration: underline;
+  }
+  
+  h2 {
+	  color: aliceblue;
+	  font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	  text-align: center;
+  }
+  
+  h3 {
+	  color: aliceblue;
+	  font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	  text-align: left;
+  }
+  
+  img {
+	  border-color: aliceblue;
+	  border-width: 4px;
+	  border-style: double;
+	  border-radius: 10px;
+  }
+  
+  table, th, td {
+	  border: 5px solid rgb(255, 255, 255);
+	  color: aliceblue;
+	  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	  font-size: 25px;
+  }
+  
+  .blink {
+	  animation: blinker 1.5s linear infinite;
+	  color: red;
+	  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	  font-size: 40px;
+	  text-align: center;
+	  font-weight: bold;
+  }
+  
+  @keyframes blinker {
+	  50% {
+		  opacity: 0;
+	  }
+  }
+  
+  .topnav {
+	  overflow: hidden;
+	  background-color: #7194CE;
+  }
+  .topnav a {
+	  float: left;
+	  color: #f2defc;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+  }
+  .topnav a:hover {
+	  background-color: #acdaf1;
+	  color: black;
+  }
+  .topnav a.active {
+	  background-color: #3c52b3;
+	  color: white;
+  }
+  
+  .banner {
+	  background-image: url(images2/banner.jpg);
+  text-align: center;
+  }
+  
+  .jobpost {
+	width: 50em;
+	border: 1px solid #333;
+	box-shadow: 8px 8px 5px #444;
+	padding: 8px 12px;
+	background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  }
+  }
+  
+  .jobpost img {
+	height: 200px;  
+	width: 250px;  
+	text-align: center;
+  }
+  
+  .jobpost p {
+	font: small-caps bold 1.2rem sans-serif;
+	text-align: center;
+  }
+  
+  /* The hero image */
+  .hero-image {
+	  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://yyngit.github.io/web2/images2/banner.png");
+	
+	  /* Set a specific height */
+	  height: 40%;
+	
+	  /* Position and center the image to scale nicely on all screens */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	}
+	
+	/* Place text in the middle of the image */
+	.hero-text {
+	  text-align: center;
+	  position: relative;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color: white;
+	}
+  
+	.hero-text h1 {
+	  color: aliceblue;
+	  font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	  text-align: center;
+  }
+  
+  .jobbox {
+	  border: 10px ridge #f00;
+	  background-color: #7194CE;
+	  padding: 0.5rem;
+	  display: flex;
+	  flex-direction: column;
+	  width: 600px;
+	  height: 400px;  
+  }
+  
+  .jobbox img {
+	  width: 20%;
+  }
+  
+  .jobbox p {
+	  font: small-caps bold 1.2rem sans-serif;
+	  text-align: center;
+  }
+  
+  .center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	}
+
+#form {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+}
